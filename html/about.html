@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- Google Fonts links -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link with CSS file -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>School Management Website</title>
+  </head>
+
+  <body>
+    <!-- header section start -->
+    <section class="sub-header-section">
+      <nav>
+        <a href="index.html"><img src="../img/logo.png" /></a>
+
+        <div class="nav-links" id="navLinks">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#" onclick="homePage()">HOME</a></li>
+            <li><a href="#" onclick="aboutPage()">ABOUT</a></li>
+            <li><a href="#" onclick="coursePage()">COURSE</a></li>
+            <li><a href="#" onclick="blogPage()">BLOG</a></li>
+            <li><a href="#" onclick="contactPage()">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+    <!-- header section end -->
+
+    <!-- about us section start -->
+    <section class="about-us-page">
+      <div class="row">
+        <div class="about-col">
+          <h1>We are the world's largest University</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolores
+            magni recusandae laboriosam vitae inventore illum, tempore, esse
+            delectus sapiente, doloribus quo necessitatibus similique nostrum
+            amet ea autem voluptatem sunt tenetur expedita atque assumenda?
+            Dolor quas consequuntur deleniti optio ex?
+          </p>
+          <a href="" class="header-btn btn">Explore Now</a>
+        </div>
+
+        <div class="about-col">
+          <img src="../img/about.jpg" alt="About us image" />
+        </div>
+      </div>
+    </section>
+    <!-- about us section end -->
+
+    <!-- Footer section start -->
+    <section class="footer-section">
+      <div class="section-title">
+        <h4>About Us</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+          pariatur ex labore quia voluptatem ut<br />
+          quis illo consequatur enim inventore!
+        </p>
+
+        <div class="footer-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p>Made with <i class="far fa-heart"></i> Mateen Mirani</p>
+      </div>
+    </section>
+    <!-- Footer section end -->
+    <!-- Here we add a Script -->
+    <script src="/JavaScript/script.js"></script>
+  </body>
+</html>
